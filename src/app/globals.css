@@ -5,3 +5,26 @@
   --foreground: #171717;
 }
 
+/* Configurações de Estilo do Header */
+header{
+  background-color: #171717;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 100vh;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;  
+
+  a, h3 {
+    color: white;
+  }
+
+  :hover {
+    color: #633ed5;
+  }
+}
