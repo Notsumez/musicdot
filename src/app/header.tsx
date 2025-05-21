@@ -1,10 +1,11 @@
 import MusicDot from "./musicdotlogo";
+import RadioIcon from "./radioicon";
 
 export default function Header() {
     return (
         <>
             <header>
-                <div className="p-8">
+                <div className="p-6">
                     <figure>
                         <MusicDot></MusicDot>
                     </figure>
@@ -15,7 +16,7 @@ export default function Header() {
                                 <li><a href="">Descubra</a></li>
                                 <li><a href="">Gêneros</a></li>
                                 <li><a href="">Top Charts</a></li>
-                                <li><a href="">Rádio</a></li>
+                                <li><a href="" className="flex text-2xl"><RadioIcon></RadioIcon>Rádio</a></li>
                             </ul>
                         </li>
                         <li>
