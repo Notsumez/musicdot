@@ -19,12 +19,12 @@ header{
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;  
+}
 
-  a, h3 {
-    color: white;
-  }
-
-  :hover {
-    color: #633ed5;
-  }
+.hoverHeader{
+  color: white;
+}
+    
+.hoverHeader:hover {
+  color: #633ed5;
 }
